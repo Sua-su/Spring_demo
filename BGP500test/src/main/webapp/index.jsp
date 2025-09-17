@@ -36,7 +36,7 @@
 
 	<form method="post">
 	
-	<input type="submit" name="removeSessionBtn " value="removeSession">
+	<input type="submit" name="removeSessionBtn" value="removeSession">
 	</form>
 
 <%

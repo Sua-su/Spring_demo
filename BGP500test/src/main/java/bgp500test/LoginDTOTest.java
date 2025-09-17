@@ -4,7 +4,7 @@ public class LoginDTOTest {
 	
 	private String userID;
 	private String userPW;
-	private String loginState;   //우클릭 source 생성 뭐시기 자동 해
+	private String loginState;   //우클릭 source 생성 뭐시기 
 	
 	public LoginDTOTest() {
 		super();
