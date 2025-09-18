@@ -1,12 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
-</body>
-</html>
+    
+    <main id = "main-content">
+    	
+    	<img src="${page.Context.request.contextPath}/assets/img/main.png">
+    	<h4>출처 : https://yju.ac.kr</h4>
+    </main>
