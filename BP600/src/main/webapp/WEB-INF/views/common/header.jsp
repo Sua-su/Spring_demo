@@ -4,7 +4,7 @@
    	<header>
    		<div>
    			<a href = "home.do">
-   			<img src = "${pageContext.request.ContextPath}"/assets/img/logo.png" alt="Logoimg">
+   			<img src = "${pageContext.request.contextPath}/assets/img/logo.png" alt="Logoimg">
    			</a>
    		</div>
    		<div>

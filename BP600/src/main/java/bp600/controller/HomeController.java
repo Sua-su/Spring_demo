@@ -7,9 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class HomeController
- */
+
 @WebServlet("*.do")
 public class HomeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -27,7 +25,7 @@ public class HomeController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		doProcess(request,response);
 	}
 
 	/**
@@ -35,7 +33,7 @@ public class HomeController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		doProcess(request,response);
 	}
 	
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -44,7 +42,7 @@ public class HomeController extends HttpServlet {
 		String contextPath = request.getContextPath();
 		String command = uri.substring(contextPath.length());
 		
-		String viewPage = "/WEB-INF/views/contents/home.jsp";
+		String viewPage = "/WEB-INF/views/main/home.jsp";
 		String contentPage = "/WEB-INF/views/contents/home_main.jsp";
 		
 		switch(command) {

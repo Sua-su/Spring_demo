@@ -4,6 +4,6 @@
     
     <main id = "main-content">
     	
-    	<img src="${page.Context.request.contextPath}/assets/img/main.png">
+    	<img src="${pageContext.request.contextPath}/assets/img/main.png">
     	<h4>출처 : https://yju.ac.kr</h4>
     </main>

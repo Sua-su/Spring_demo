@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h2 class="shine-text">이 페이지는 include 실습을 위한 별도록 작성된 hello.jsp 내용 입니다.</h2>
 
 </body>
 </html>
