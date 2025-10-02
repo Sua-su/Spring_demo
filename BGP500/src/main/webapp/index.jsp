@@ -12,7 +12,7 @@
 	<h3>Controller / servlet / DAO / DTO class</h3>
 	<hr>
 	
-	<a href="<%=request.getContextPath()%>/login.jsp">LOG IN PAGE (scriptlet + HTML)</a>
+	<a href="<%=request.getContextPath()%>/login.jsp">LOGIN PAGE (scritp + HTML)</a>
 	<hr>
 	
 	<h3>session info.</h3>

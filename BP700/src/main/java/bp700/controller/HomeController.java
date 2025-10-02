@@ -1,4 +1,4 @@
-package bp600.controller;
+package bp700.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -61,6 +61,12 @@ public class HomeController extends HttpServlet {
 				break;
 			case "/menu2.do" :
 				contentPage = "/WEB-INF/views/contents/main_sub2.jsp";
+				break;
+			case "/menu3.do" :
+				contentPage = "/Web-INF/views/contents/main_sub3.jsp";
+				break;
+			case"/menu4.do" :
+				contentPage = "/Web-INF/views/contents/main_sub4.jsp";
 				break;
 			
 			// 위에 해당하지 않는 URL이면 404 페이지 보여줌
