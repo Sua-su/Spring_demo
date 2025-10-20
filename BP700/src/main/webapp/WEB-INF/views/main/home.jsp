@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<title>BP600 Practice#1(JSP기초)</title>
+<title>BP700 Practice#1(JSP기초)</title>
 
 <%--  css가져오기  --%>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/home.css">

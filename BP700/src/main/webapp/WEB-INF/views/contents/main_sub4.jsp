@@ -52,28 +52,33 @@
 	<hr/>
 	
 	<h3>forTokens 코어태그 활용</h3>
-	<c:forTokens var="city" item="Seoul/Tokyo/New York/Toronto" delims="/"
+	<c:forTokens var="city" items="Seoul/Tokyo/New York/Toronto" delims="/"
 		varStatus="i">
 		<c:if test="${i.first}">도시 목록 : </c:if>
 		${city}
-		<:if test="${!i.last}">,</:if>
+		<c:if test="${!i.last}">,</c:if>
 	</c:forTokens>
 	<hr/>
 	
 	<h3>EL(Expression Language) 태그 활용 </h3>
 	product1 : ${product1}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	product1 : ${product2}<p>
+	product1 : ${product3}<p>
+	<p>
+	10 + 20 : ${10 + 20}<p>
+	10 * 20 : ${10 * 20}<p>
+	true && false : ${true && false}<p>
+	10 >= 20 : ${10 >= 20}<p>
+	user.name == "홍길동"? "교수" : "학생" : ${user.name == "홍길동"? "교수" : "학생" }<p>
+
 	
 	
 	
 	
 
 </main>
+
+
+
+
+
